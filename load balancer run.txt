@@ -1,4 +1,21 @@
-npm run dev
+﻿Load Balancing project run instructions
+
+1. Install dependencies:
 
 npm install
 
+2. Start the development server:
+
+npm.cmd run dev -- --port 5173
+
+3. Open:
+
+http://127.0.0.1:5173
+
+4. Optional build check:
+
+npm.cmd run build
+
+Notes:
+- node_modules is intentionally not uploaded to GitHub.
+- Run npm install after cloning the repository.
